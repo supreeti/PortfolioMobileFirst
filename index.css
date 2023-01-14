@@ -91,18 +91,10 @@
 .Snapshoot {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 10px;
-  width: 90%;
-  padding: 20px 0 20px 0;
-}
-
-.article1 figure,
-.article2 figure,
-.article3 figure,
-.article4 figure {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 12px;
+  margin-left: 24px;
+  width: 327px;
+  padding: 16px;
 }
 
 .language_type img {
@@ -136,12 +128,13 @@
 .article2 figure img,
 .article3 figure img,
 .article4 figure img {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   width: 295px;
   height: 220px;
-  padding: 16px;
-  object-fit: cover;
   object-position: center;
+  align-items: center;
+  object-fit: cover;
 }
 
 .article1div,
@@ -176,21 +169,29 @@
   list-style: none;
 }
 
+.f {
+  list-style-type: disc;
+  flex: none;
+  flex-grow: 0;
+  height: 8px;
+  width: 8px;
+  color:#7a869a;
+}
+
 .font2 {
   width: 55px;
   height: 16px;
   color: #344563;
   font-size: 13px;
   font-weight: 600;
-  padding: 16px 0 0 0;
 }
 
 .font3 {
   height: 16px;
+  width: 88px;
   color: #7a869a;
   font-size: 13px;
   font-weight: 600;
-  padding: 16px 0 0 0;
 }
 
 .font10 {
@@ -199,7 +200,6 @@
   color: #7a869a;
   font-size: 13px;
   font-weight: 600;
-  padding: 16px 0 0 0;
 }
 
 .article1 p,
@@ -307,15 +307,39 @@
   line-height: 52px;
 }
 
-.about_self_section h5 {
-  display: flex;
-  flex-direction: row;
+.about_self_section h3 {
+  padding: 20px 0;
+}
+
+.font11 {
+  padding-top: 16px;
+  text-align: left;
+  color: #172b4d;
+  font-size: 40px;
+  align-items: left;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.about_self_section h6 {
+  width: 117px;
+  height: 24px;
   font-size: 16px;
   line-height: 24px;
-  align-items: left;
   color: #7f8cff;
   font-weight: 500;
-  padding-top: 15px;
+  padding: 15px 0;
+}
+
+.about_self_section p {
+  flex: none;
+  flex-grow: 0;
+  height: 144px;
+  width: 327px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  font-weight: 400;
 }
 
 .about_self_section ul {
@@ -323,7 +347,7 @@
   gap: 20px;
   align-items: left;
   list-style: none;
-  padding: 30px 0 15px 10px;
+  padding: 35px 0 30px 10px;
 }
 
 .about_self_section ul li {
@@ -333,10 +357,6 @@
 .about_section_flex1 {
   display: flex;
   flex-direction: column;
-}
-
-.about_self_section h3 {
-  padding: 20px 0;
 }
 
 .about_section_flex2 {
