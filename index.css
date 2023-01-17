@@ -216,7 +216,7 @@
 }
 
 .float_box1 {
-  float : right;
+  float : center ;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
