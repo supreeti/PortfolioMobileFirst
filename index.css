@@ -33,15 +33,20 @@
   background-repeat: no-repeat;
   width: 90%;
   margin: auto;
-  padding: 30px 0 15px 0;
+  gap: 20px;
+}
+
+.section a {
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .section h1 {
+  fdisplay: flex;
   font-size: 40px;
   color: #172b4d;
-  font-weight: 800;
-  width: 290px;
-  font-style: bold;
   line-height: 52px;
   align-items: left;
   padding: 50px 0 0 0;
@@ -74,8 +79,8 @@
 .Snapshoot {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 10px;
-  width: 90%;
+  margin-left: 24px;
+  width: 327px;
   padding: 20px 0 20px 0;
 }
 
@@ -159,21 +164,21 @@
   list-style: none;
 }
 
+.f {
+  list-style-type: disc;
+  flex: none;
+  flex-grow: 0;
+  height: 8px;
+  width: 8px;
+  color: #7a869a;
+}
+
 .font2 {
   width: 55px;
   height: 16px;
   color: #344563;
   font-size: 13px;
   font-weight: 600;
-  padding: 16px 0 0 0;
-}
-
-.font3 {
-  height: 16px;
-  color: #7a869a;
-  font-size: 13px;
-  font-weight: 600;
-  padding: 16px 0 0 0;
 }
 
 .font10 {
@@ -182,7 +187,22 @@
   color: #7a869a;
   font-size: 13px;
   font-weight: 600;
-  padding: 16px 0 0 0;
+}ß
+
+.font3 {
+  height: 16px;
+  width: 88px;
+  color: #7a869a;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.font10 {
+  width: 29px;
+  height: 16px;
+  color: #7a869a;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .article1 p,
@@ -270,6 +290,16 @@
   padding: 100px 0;
 }
 
+.font11 {
+  padding-top: 16px;
+  text-align: left;
+  color: #172b4d;
+  font-size: 40px;
+  align-items: left;
+  line-height: 52px;
+  font-weight: 700;
+}
+
 .font8 {
   width: 295px;
   color: #172b4d;
@@ -290,6 +320,16 @@
   line-height: 52px;
 }
 
+.about_self_section h6 {
+  width: 117px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  font-weight: 500;
+  padding: 15px 0;
+}
+
 .about_self_section h5 {
   display: flex;
   flex-direction: row;
@@ -301,12 +341,23 @@
   padding-top: 15px;
 }
 
+.about_self_section p {
+  flex: none;
+  flex-grow: 0;
+  height: 144px;
+  width: 327px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  font-weight: 400;
+}
+
 .about_self_section ul {
   display: flex;
   gap: 20px;
   align-items: left;
   list-style: none;
-  padding: 30px 0 15px 10px;
+  padding: 35px 0 30px 10px;
 }
 
 .about_self_section ul li {
@@ -433,13 +484,6 @@ label {
   border-radius: 8px;
   color: #6070ff;
   background-color: #fff;
-}
-
-.btn:hover {
-  padding: 12px 16px 12px 16px;
-  border: 1px solid #fff;
-  color: #fff;
-  background-color: #6070ff;
 }
 
 @media only screen and (min-width: 425px) {
