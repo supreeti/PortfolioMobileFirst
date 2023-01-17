@@ -216,6 +216,7 @@
 }
 
 .float_box1 {
+  float : right;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -259,7 +260,7 @@
 .article3 button,
 .article4 button,
 .about_self_section button {
-  padding: 10px 10px;
+  padding: 10px 30px;
   border: 1px solid #6070ff;
   border-radius: 10px;
   background-color: #fff;
