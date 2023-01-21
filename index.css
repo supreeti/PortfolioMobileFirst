@@ -135,7 +135,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 327px;
+  width: 90%;
   height: 596px;
   gap: 12px;
   padding: 16px;
@@ -181,7 +181,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  width: 327px;
+  width: 49%;
   height: 552px;
   padding-left: 16px;
 }
@@ -394,7 +394,7 @@
   line-height: 24px;
   color: #7f8cff;
   font-weight: 500;
-  padding-top: 24px;
+  padding-top: 65px;
 }
 
 .about_self_section p {
@@ -479,7 +479,7 @@
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  padding: 15px 0;
+  padding-left: 40px;
 }
 
 fieldset {
@@ -494,7 +494,7 @@ label {
 }
 
 .input1 {
-  width: 100%;
+  width: 90%;
   height: 18px;
   color: #172b4d;
   font-size: 17px;
@@ -514,7 +514,7 @@ label {
 }
 
 .textarea1 {
-  width: 100%;
+  width: 90%;
   background: #fff;
   color: #b3bac5;
   font-size: 15px;
@@ -554,7 +554,7 @@ label {
   .header1 {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 50px 0 0 0;
   }
@@ -591,10 +591,12 @@ label {
     background: #fff;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
+    width: 100%;
     margin: auto;
     gap: 20px;
     border-bottom-left-radius: 10px;
+    padding-left: 260px;
+    padding-right: 260px;
   }
 
   .section h1 {
@@ -622,7 +624,7 @@ label {
     background-image: url("images/Header bg.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 98%;
+    width: 115%;
     margin: auto;
     height: 440px;
     display: block;
@@ -639,7 +641,7 @@ label {
   .article4 {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1156px;
     height: 496px;
     justify-content: space-between;
     gap: 25px;
@@ -720,7 +722,7 @@ label {
   .article2div p,
   .article3div p,
   .article4div p {
-    width: 90%;
+    width: 100%;
     height: 50px;
     text-align: left;
     color: #344563;
@@ -767,12 +769,12 @@ label {
     display: flex;
     justify-content: center;
     gap: 15px;
-    width: 90%;
+    
     margin: auto;
   }
 
   .about_width1 {
-    width: 50%;
+    width: 40%;
   }
 
   .font5 {
@@ -843,7 +845,7 @@ label {
   }
 
   .contact_form {
-    width: 90%;
+    width: 50%;
     margin: auto;
   }
 
@@ -859,16 +861,20 @@ label {
   }
 
   .contact_form p {
+    width: 569px;
+    padding-left: 3px;
     color: #ebebff;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
+  }
+
+  .contact_info label {
     text-align: center;
-    padding: 15px 0;
   }
 }
 
-@media only screen and (min-width: 1198px) {
+@media only screen and (min-width: 1440px) {
   .box1 {
     width: 95%;
     margin: auto;
@@ -886,11 +892,28 @@ label {
     padding: 0 0 0 25px;
   }
 
+  .article1,
+  .article2,
+  .article3,
+  .article4 {
+    display: flex;
+    flex-direction: row;
+    width: 1190px;
+    height: 496px;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 16px;
+    border: 1px solid #e3e5e9;
+    border-radius: 16px;
+    padding-bottom: 50px;
+    margin-left: 140px;
+  }
+
   .article1div p,
   .article2div p,
   .article3div p,
   .article4div p {
-    width: 90%;
+    /* width: 1156%; */
     height: 50px;
     text-align: left;
     color: #344563;
