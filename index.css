@@ -12,7 +12,7 @@
   align-items: center;
   width: 90%;
   margin: auto;
-  padding: 30px 0;
+  padding: 30px 0 15px 0;
 }
 
 .header1 h3 {
@@ -23,6 +23,7 @@
   line-height: 20px;
   margin-left: 12px;
   margin-top: 4px;
+  color: #6070ff;
 }
 
 .section a {
@@ -57,9 +58,10 @@
   flex-direction: column;
   background-image: url("images/header-shapes mobile.png");
   background-size: cover;
-  width: 90%;
+  background-repeat: no-repeat;
+  width: 100%;
   margin: auto;
-  gap: 20px;
+  padding: 30px 0;
 }
 
 .section h1 {
@@ -90,7 +92,6 @@
 .social-media h5 {
   display: flex;
   flex-direction: row;
-  gap: 15px;
   align-items: left;
   font-size: 16px;
   line-height: 24px;
@@ -168,6 +169,13 @@
   object-position: center;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.article1 .fig1 img:hover,
+.article2 .fig1 img:hover,
+.article3 .fig1 img:hover,
+.article4 .fig1 img:hover {
+  transform: scale(1.1);
 }
 
 .show2 {
@@ -398,9 +406,9 @@
 }
 
 .about_self_section p {
-  flex: none;
-  flex-grow: 0;
-  height: 196px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 327px;
   font-size: 16px;
   line-height: 24px;
@@ -451,7 +459,7 @@
 
 .contact_section {
   padding: 150px 0 20px 0;
-  width: 90%;
+  width: 100%;
   border-top-left-radius: 100px;
   display: flex;
   justify-content: center;
@@ -549,10 +557,6 @@ label {
     background-color: #f4f5f7;
   }
 
-  .bg2 {
-    background-color: #fff;
-  }
-
   .header1 {
     display: flex;
     justify-content: space-between;
@@ -569,6 +573,7 @@ label {
     flex-direction: row;
     display: flex;
     gap: 20px;
+    list-style: none;
   }
 
   .nav2 a {
@@ -578,18 +583,16 @@ label {
   }
 
   .social-media h5 {
-    display: flex;
-    align-items: left;
+    justify-content: left;
     font-size: 16px;
     line-height: 24px;
     color: #7f8cff;
     font-weight: 500;
-    padding-top: 15px;
+    width: 90%;
   }
 
   .section {
     display: flex;
-    justify-content: center;
     background: #fff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -597,8 +600,6 @@ label {
     margin: auto;
     gap: 20px;
     border-bottom-left-radius: 10px;
-    padding-left: 260px;
-    padding-right: 260px;
   }
 
   .section h1 {
@@ -607,30 +608,40 @@ label {
     line-height: 60px;
     letter-spacing: 0.37px;
     font-weight: 700;
-    width: 420px;
+    width: 90%;
     padding-bottom: 10px;
+    padding-left: 260px;
+    padding-right: 260px;
   }
 
   .section p {
     color: #4d5c76;
-    font-size: 16px;
+    font-size: 20px;
     font-size: 1.75vw;
-    line-height: 24px;
+    line-height: 28px;
     letter-spacing: 0;
-    width: 620px;
-    font-weight: 500;
-    align-items: left;
+    width: 90%;
+    font-weight: 400;
+    padding-left: 260px;
+    padding-right: 260px;
   }
 
   .box1 {
     background-image: url("images/Header bg.png");
-    background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     margin: auto;
     height: 440px;
     display: block;
+  }
+
+  .social-media {
+    display: block;
     justify-content: center;
+    width: 90%;
+    margin: auto;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 
   .social-media ul li {
@@ -711,6 +722,7 @@ label {
     font-weight: 400;
     text-align: justify;
     justify-content: center;
+    padding-right: 90px;
   }
 
   .show1 {
