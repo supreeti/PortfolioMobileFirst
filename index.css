@@ -649,10 +649,6 @@ label {
     padding-bottom: 50px;
   }
 
-  .show2 {
-    display: block;
-  }
-
   .article1 .fig1,
   .article2 .fig1,
   .article3 .fig1,
@@ -715,7 +711,7 @@ label {
     padding: 50px 20px 20px 0;
     display: flexbox;
   }
-
+  
   .ul1 {
     margin: 15px 0 10px 0;
   }
