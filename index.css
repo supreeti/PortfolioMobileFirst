@@ -591,7 +591,6 @@ label {
     background: #fff;
     background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
     width: 90%;
     margin: auto;
     gap: 20px;
@@ -647,7 +646,7 @@ label {
     padding: 16px;
     border: 1px solid #e3e5e9;
     border-radius: 16px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
   }
 
   .show2 {
@@ -669,8 +668,7 @@ label {
     display: flexbox;
     width: 544px;
     height: 448px;
-    padding-left: 590px;
-    padding: 24px 24px 0 0;
+    padding: 590px 24px 0 0;
     object-fit: contain;
     border-radius: 8px;
   }
@@ -707,12 +705,12 @@ label {
     font-weight: 400;
     text-align: justify;
     justify-content: center;
-  } 
+  }
   
   .show1 {
     display: none;
   }
-
+  
   .show2 {
     padding: 50px 20px 20px 0;
     display: flexbox;
@@ -816,7 +814,7 @@ label {
   .about_self_section .social2 {
     padding: 20px 0;
   }
-
+  
   .about_section_flex3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -911,21 +909,5 @@ label {
     font-weight: 500;
     align-items: left;
     padding: 0 0 0 25px;
-  }
-
-  .article1div p,
-  .article2div p,
-  .article3div p,
-  .article4div p {
-    width: 90%;
-    height: 50px;
-    text-align: left;
-    color: #344563;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 10px;
   }
 }
