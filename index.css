@@ -702,11 +702,9 @@ label {
     text-align: justify;
     justify-content: center;
   }
-
   .show1 {
     display: none;
   }
-  
   .show2 {
     padding: 50px 20px 20px 0;
     display: flexbox;
