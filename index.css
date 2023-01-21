@@ -170,6 +170,13 @@
   border-radius: 8px;
 }
 
+.article1 .fig1 img:hover,
+.article2 .fig1 img:hover,
+.article3 .fig1 img:hover,
+.article4 .fig1 img:hover {
+  transform: scale(1.1);
+}
+
 .show2 {
   display: none;
 }
@@ -711,6 +718,7 @@ label {
     font-weight: 400;
     text-align: justify;
     justify-content: center;
+    padding-right: 90px;
   }
 
   .show1 {
