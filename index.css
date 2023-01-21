@@ -651,6 +651,8 @@ label {
 
   .show2 {
     display: block;
+    padding: 50px 0 20px 0;
+    display: flexbox;
   }
 
   .article1 .fig1,
@@ -711,11 +713,10 @@ label {
     display: none;
   }
 
-  .show2 {
+  /* .show2 { 
     padding: 50px 0 20px 0;
     display: flexbox;
-  }
-  
+  }*/
   .ul1 {
     margin: 15px 0 10px 0;
   }
@@ -774,7 +775,7 @@ label {
     width: 90%;
     margin: auto;
   }
-
+  
   .about_width1 {
     width: 50%;
   }
@@ -794,7 +795,7 @@ label {
     width: 170px;
     line-height: 40px;
   }
-
+  
   .about_section_flex2 {
     padding: 0;
   }
