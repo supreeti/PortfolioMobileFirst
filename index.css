@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
 }
 
@@ -523,7 +523,7 @@ label {
   padding: 16px 15px 38px 15px;
   outline: none;
   font-style: normal;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
@@ -584,7 +584,7 @@ label {
     font-weight: 500;
     padding-top: 15px;
   }
-  
+
   .section {
     display: flex;
     justify-content: center;
@@ -596,7 +596,7 @@ label {
     gap: 20px;
     border-bottom-left-radius: 10px;
   }
-  
+
   .section h1 {
     font-size: 48px;
     color: #172b4d;
@@ -697,7 +697,7 @@ label {
     flex-direction: column;
     justify-content: flex-start;
   }
-  
+
   .about_self_section p {
     color: #344563;
     font-size: 16px;
@@ -707,7 +707,7 @@ label {
     text-align: justify;
     justify-content: center;
   }
-  
+
   .show1 {
     display: none;
   }
@@ -715,7 +715,7 @@ label {
   .ul1 {
     margin: 15px 0 10px 0;
   }
-  
+
   .article1div p,
   .article2div p,
   .article3div p,
@@ -770,11 +770,11 @@ label {
     width: 90%;
     margin: auto;
   }
-  
+
   .about_width1 {
     width: 50%;
   }
-  
+
   .font5 {
     color: #253858;
     line-height: 20px;
@@ -790,19 +790,19 @@ label {
     width: 170px;
     line-height: 40px;
   }
-  
+
   .about_section_flex2 {
     padding: 0;
   }
-  
+
   .about_section_flex1 {
     margin-top: -30px;
   }
-  
+
   .about_self_section .social2 {
     padding: 20px 0;
   }
-  
+
   .about_section_flex3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -810,7 +810,7 @@ label {
     justify-content: flex-start;
     text-align: left;
   }
-  
+
   .about_section_align1 {
     padding: 10px 2px 10px 2px;
     background-color: #f7f7f9;
@@ -820,7 +820,7 @@ label {
     flex-direction: column;
     justify-content: flex-start;
   }
-  
+
   .font9 {
     width: 295px;
     color: #344563;
