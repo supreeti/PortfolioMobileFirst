@@ -628,7 +628,7 @@ label {
     display: block;
     justify-content: center;
   }
-  
+
   .social-media ul li {
     text-decoration: none;
   }
@@ -652,7 +652,6 @@ label {
   .show2 {
     display: block;
     padding: 50px 0 20px 0;
-    display: flexbox;
   }
 
   .article1 .fig1,
@@ -713,10 +712,6 @@ label {
     display: none;
   }
 
-  /* .show2 { 
-    padding: 50px 0 20px 0;
-    display: flexbox;
-  }*/
   .ul1 {
     margin: 15px 0 10px 0;
   }
@@ -807,7 +802,7 @@ label {
   .about_self_section .social2 {
     padding: 20px 0;
   }
-
+  
   .about_section_flex3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
