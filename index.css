@@ -87,6 +87,15 @@
   margin-bottom: 100px;
   gap: 20px;
   padding-bottom: 15px;
+  animation-name: social_medial;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+@keyframes social_medial {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .social-media h5 {
@@ -329,6 +338,8 @@
   border-radius: 8px;
   color: #6070ff;
   background-color: #fff;
+  opacity: 1;
+  transition: 0.3s;
 }
 
 .article1 button:hover,
@@ -342,7 +353,7 @@
   background-color: #396df2;
   color: #fff;
   border-radius: 8px;
-  transition: all 3s ease 5s;
+  opacity: 0.8;
 }
 
 .article1 button a:hover,
