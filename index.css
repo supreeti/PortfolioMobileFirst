@@ -91,11 +91,11 @@
   animation-duration: 4s;
   animation-delay: -2s;
 }
+
 @keyframes social_medial {
-  100% {  
-    transform:rotate(360deg); 
-} 
-  
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .social-media h5 {
