@@ -30,7 +30,7 @@ My second microverse project with my portfolio mobile view.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/supreeti/PortfolioMobileFirst)
+- [Live Demo Link](https://supreeti.github.io/PortfolioMobileFirst/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
