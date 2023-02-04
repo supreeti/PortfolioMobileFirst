@@ -22,10 +22,16 @@ My second microverse project with my portfolio mobile view.
 
 **[PortfolioMobileFirst]** is a simple mobile view of my portfolio using HTML and CSS flex...
 
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - Html
 - CSS
+
+## 🚀 Project Video <a name="live-video"></a>
+
+- [Project Video Link](https://www.loom.com/share/c9c9d5ed94214c01add4b464f5840f0b?t=233)
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
