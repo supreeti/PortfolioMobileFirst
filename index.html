@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
 	  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Supreeti Portfolio</title>
   </head>
-  <body class="bg1">
-    
+  <body class="bg1" id="home">
     <header class="bg2">
-    <div class="header1">
-        <h3>My Logo</h3>
-          <nav class="nav1">
-              <img src="images/Union.png" alt=""/>
-          </nav>
-          <nav class="nav2">
-            <ul class="nav2 liststyle">
-                 <a class="textdecoration" href="#">Portfolio</a>
-                <a class="textdecoration" href="#">About</a>
-                <a class="textdecoration" href="#">Contact</a>
-            </ul>
-        </nav>
-    </div>
-     </header>
+        <div class="header1">
+            <h3>Supreeti</h3>
+              <nav class="nav1">
+                  <button class="menuselect">
+                    <img src="images/Union.png" alt="menu-icon" />
+                  </button>
+              </nav>
+              <nav class="nav2">
+                <ul class="nav2 liststyle">
+                     <a class="textdecoration" href="#portfolio">Portfolio</a>
+                    <a class="textdecoration" href="#about">About</a>
+                    <a class="textdecoration" href="#contact">Contact</a>
+                </ul>
+            </nav>
+        </div>
+         </header>
 
     <main>
  <section class="section bg2">
@@ -51,8 +53,19 @@
             </div>
         </article>
             </section>
-
-<section class="Snapshoot">
+            <div class="mobile-option">
+   <div class="head-dom">
+     <button class="exit">
+       &#x2716;
+     </button>
+   </div>  
+            <div class="menu-items">
+                <a class="menulinks" href="#portfolio"><h3>Portfolio</h3></a>
+                <a class="menulinks" href="#about"><h3>About</h3></a>
+                <a class="menulinks" href="#contact"><h3>Contact</h3></a>
+            </div>
+</div>
+<section id="portfolio" class="Snapshoot">
 
     <article class="article1 bg2">
 
@@ -265,7 +278,7 @@
     
    </section>
   
-  <section class="about_self_section bg2">
+  <section  id="about" class="about_self_section bg2">
     
     <div class="about_width1">
     
@@ -328,7 +341,7 @@
            </article>
     </section>
 
-   <section class="bg2">
+   <section id="contact" class="bg2">
           <article class="contact_section">
             <div class="contact_form">
     
@@ -373,7 +386,7 @@
             </div>
         </article>
         </section>
-
+        <script src="main.js"></script>
      </main>
      </body>
      </html>
