@@ -26,7 +26,7 @@ const cardsData = [
     id: 0,
     name: ['Tonic', 'Tonic'],
     description: [
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem Ipsum is simply dummy text of the printing and typesetting industry. A daily selection of privately personalized reads; no accounts or sign-ups required.', 'A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.'],
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and...', 'A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.'],
     image: ['images/Snapshoot Portfolio.png', 'images/Snapshoot PortfolioDesk1.png'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
@@ -66,7 +66,7 @@ const cardsData = [
     name: ['Multi-Post Stories', 'Uber Navigation'],
     description:
       ['A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.', 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car. A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.'],
-    image: ['images/Snapshoot Portfolio (3).png', 'images/Snapshoot Portfoliodesk4.png'],
+    image: ['images/Snapshoot Portfolio (3).png', 'images/Snapshoot PortfolioDesk4.png'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
     technologiesPop: ['html', ' css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
@@ -130,9 +130,9 @@ for (let i = 0; i < cardsData.length; i += 1) {
                 <ul class="ul1">
 
                     <li><a class="textdecoration font2" href="#">CANOPY</a></li>
-                    <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt=""></a></li>
+                    <li><a class="textdecoration" href="#"><img src="images/Counter.png" alt=""></a></li>
                     <li><a class="textdecoration font3" href="#">Back End Dev</a></li>
-                    <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt=""></a></li>
+                    <li><a class="textdecoration" href="#"><img src="images/Counter.png" alt=""></a></li>
                     <li><a class="textdecoration font3" href="#">2015</a></li>
 
 
@@ -212,12 +212,12 @@ showPopupBtn.forEach((e) => {
     </article>
 
     <footer>
-        <button class="footer_btn textdecoration" id="see-projects-btn" type="submit">
+        <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
             <a href="${cardsData[btnIndex].liveLink}"><span>See Live</span></a>
             <img src="images/live.png" alt="">
         </button>
 
-        <button class="footer_btn textdecoration" id="see-projects-btn" type="submit">
+        <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
         <a href="${cardsData[btnIndex].Source}"><span>See Source</span></a>
             <img src="images/github.jpg" alt="">
         </button>
@@ -239,9 +239,9 @@ showPopupBtn.forEach((e) => {
     <ul class="list1 ul1">
 
         <li><a class="textdecoration font2" href="#">CANOPY</a></li>
-        <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt=""></a></li>
+        <li><a class="textdecoration" href="#"><img src="images/Counter.png" alt=""></a></li>
         <li><a class="textdecoration font3" href="#">Back End Dev</a></li>
-        <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt=""></a></li>
+        <li><a class="textdecoration" href="#"><img src="images/Counter.png" alt=""></a></li>
         <li><a class="textdecoration font3" href="#">2015</a></li>
 
     </ul>
