@@ -2,6 +2,12 @@ const menuselect = document.querySelector('.menuselect');
 const openMenu = document.querySelector('.mobile-option');
 const closeMenu = document.querySelector('.exit');
 const worksSection = document.querySelector('.works_section');
+const form = document.querySelector('form');
+const button = document.querySelector('#btn_1');
+const message = document.querySelector('.errorMsg');
+const fName = document.querySelector('#name');
+const email = document.querySelector('#email');
+const textArea = document.querySelector('#text_message');
 
 function open() {
   openMenu.style.display = 'block';
@@ -301,3 +307,43 @@ showPopupBtn.forEach((e) => {
     });
   });
 });
+
+const formChangeEvents = [fName, email, textArea];
+formChangeEvents.forEach((eachField) => {
+  eachField.addEventListener('change', () => {
+    message.innerHTML = '';
+    const formDataObject = {
+      nameKey: fName.value,
+      emailKey: email.value,
+      textAreaKey: textArea.value,
+    };
+    localStorage.setItem('formValues', JSON.stringify(formDataObject));
+  });
+});
+
+window.addEventListener('load', () => {
+  const formInfo = JSON.parse(localStorage.getItem('formValues'));
+  if (formInfo) {
+    fName.value = formInfo.nameKey;
+    email.value = formInfo.emailKey;
+    textArea.value = formInfo.textAreaKey;
+  } else {
+    fName.value = '';
+    email.value = '';
+    textArea.value = '';
+  }
+});
+
+const validate = () => {
+  const regx = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
+  form.addEventListener('submit', (e) => {
+    const formInfo = JSON.parse(localStorage.getItem('formValues'));
+    const emailAddress = formInfo.emailKey;
+    if (!(regx.test(emailAddress))) {
+      message.innerHTML = 'Enter valid email address! in lowercase; abc@gmail.com';
+      e.preventDefault();
+    }
+  });
+};
+
+button.addEventListener('click', validate());
