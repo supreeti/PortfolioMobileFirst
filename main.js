@@ -1,11 +1,7 @@
 const menuselect = document.querySelector('.menuselect');
 const openMenu = document.querySelector('.mobile-option');
 const closeMenu = document.querySelector('.exit');
-/*const modalMenuContainer = document.querySelector('.modal_menu_container');
-const menuOption = document.querySelectorAll('.menu_option');*/
 const worksSection = document.querySelector('.works_section');
-const form = document.querySelector('form');
-const button = document.querySelector('#btn_1');
 
 function open() {
   openMenu.style.display = 'block';
