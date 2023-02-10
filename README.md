@@ -28,6 +28,7 @@ My second microverse project with my portfolio mobile view.
 
 - Html
 - CSS
+- Javascript
 
 ## 🚀 Project Video <a name="live-video"></a>
 
@@ -85,7 +86,7 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[My portfolio mobile view]**
+- [ ] **[My portfolio Contact form Validation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
