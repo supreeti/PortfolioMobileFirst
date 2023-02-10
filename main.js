@@ -102,7 +102,7 @@ for (let i = 0; i < cardsData.length; i += 1) {
                     <li><a class="textdecoration font2" href="#">CANOPY</a></li>
                     <li><a class="textdecoration" href="#"><img src="images/Counter.png" alt="mit_dot"></a></li>
                     <li><a class="textdecoration font3" href="#">Back End Dev</a></li>
-                    <li class="textdecoration"><a href="#"><img src="media/mid_dot.jpg" alt="mit_dot"></a></li>
+                    <li class="textdecoration"><a href="#"><img src="images/Counter.png" alt="mit_dot"></a></li>
                     <li><a class="textdecoration font3" href="#">2015</a></li>
 
 
@@ -185,9 +185,9 @@ showPopupBtn.forEach((e) => {
     <ul class="list1">
 
         <li><a class="textdecoration font2" href="#">CANOPY</a></li>
-        <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt="mit_dot"></a></li>
+        <li><a class="textdecoration" href="#"><img src="images/Counter.png" alt="mit_dot"></a></li>
         <li><a class="textdecoration font3" href="#">Back End Dev</a></li>
-        <li class="textdecoration"><a href="#"><img src="media/mid_dot.jpg" alt="mit_dot"></a></li>
+        <li class="textdecoration"><a href="#"><img src="images/Counter.png" alt="mit_dot"></a></li>
         <li><a class="textdecoration font3" href="#">2015</a></li>
 
 
@@ -213,12 +213,12 @@ showPopupBtn.forEach((e) => {
 
     <footer>
         <button class="footer_btn textdecoration" id="see-projects-btn" type="submit">
-            <span>See Live</span>
+            <a href="${cardsData[btnIndex].liveLink}"><span>See Live</span></a>
             <img src="images/live.png" alt="">
         </button>
 
         <button class="footer_btn textdecoration" id="see-projects-btn" type="submit">
-            <span>See Source</span>
+        <a href="${cardsData[btnIndex].Source}"><span>See Source</span></a>
             <img src="images/github.jpg" alt="">
         </button>
         
@@ -270,12 +270,12 @@ showPopupBtn.forEach((e) => {
 
             <footer>
                 <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
-                    <span>See Live</span>
+                <a href="${cardsData[btnIndex].liveLink}"><span>See Live</span></a>
                     <img src="images/live.png" alt="">
                 </button>
 
                 <button class="align_3 footer_btn textdecoration" id="see-projects-btn" type="submit">
-                    <span>See Source</span>
+                <a href="${cardsData[btnIndex].Source}"><span>See Source</span></a>
                     <img src="images/github.jpg" alt="">
                 </button>
             </footer>
