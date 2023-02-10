@@ -100,7 +100,7 @@ for (let i = 0; i < cardsData.length; i += 1) {
                 <ul>
 
                     <li><a class="textdecoration font2" href="#">CANOPY</a></li>
-                    <li><a class="textdecoration" href="#"><img src="media/mid_dot.jpg" alt="mit_dot"></a></li>
+                    <li><a class="textdecoration" href="#"><img src="images/Counter.png" alt="mit_dot"></a></li>
                     <li><a class="textdecoration font3" href="#">Back End Dev</a></li>
                     <li class="textdecoration"><a href="#"><img src="media/mid_dot.jpg" alt="mit_dot"></a></li>
                     <li><a class="textdecoration font3" href="#">2015</a></li>
