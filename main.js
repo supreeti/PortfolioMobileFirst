@@ -42,6 +42,19 @@ fname.addEventListener('change', getFormData);
 email.addEventListener('change', getFormData);
 message.addEventListener('change', getFormData);
 
+window.addEventListener('load', () => {
+  const formInfo = JSON.parse(localStorage.getItem('formValues'));
+  if (formInfo) {
+    fName.value = formInfo.nameKey;
+    email.value = formInfo.emailKey;
+    textArea.value = formInfo.textAreaKey;
+  } else {
+    fName.value = '';
+    email.value = '';
+    textArea.value = '';
+  }
+});
+
 const cardsData = [
   {
     id: 0,
