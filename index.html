@@ -200,31 +200,33 @@
                     <fieldset class="contact_info">
 
                         <label>
-                            <input class="input1" maxlength="30" type="text" placeholder="Supreeti" value=""
+                            <input class="input1" maxlength="30" type="text" placeholder="Supreeti" id="name" value=""
                                 name="name" required>
                         </label>
 
                         <label>
-                            <input class="input1" type="email" placeholder="sksupreetk11@gmail.com"  value=""
+                            <input class="input1" type="email" placeholder="sksupreetk11@gmail.com" id="email" value=""
                                 name="email" required>
                         </label>
 
                         <label>
-                            <textarea class="textarea1" placeholder="Write your message here" name="text_message"
+                            <textarea class="textarea1" placeholder="Write your message here" name="text_message" id="text_message"
                                 maxlength="500" cols="10" rows="5" required></textarea>
                         </label>
 
                     </fieldset>
 
                     <fieldset class="contact_action">
+                        <label for="form_error" class="erMsg"></label>
                         <label>
-                            <input class="btn_1"  type="submit" value="Get In Touch">
+                            <input class="btn_1" id="btn_1" type="submit" value="Get In Touch">
                         </label>
                     </fieldset>
                 </form>
             </div>
         </article>
     </section>
-    <script src="main.js"></script>
+
 </body>
+<script src="main.js"></script>
 </html>

@@ -614,6 +614,14 @@ label {
   border: 1px solid #cfd8dc;
 }
 
+.erMsg {
+  color: red;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
+  transition: 2s;
+}
+
 .textarea1::placeholder {
   color: #172b4d;
   font-size: 17px;
@@ -625,14 +633,6 @@ label {
 .textarea1:hover::placeholder {
   transform: translate(10px, 0);
   color: #172b4d50;
-}
-
-.errorMsg {
-  color: #172b4d;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 28px;
-  transition: 3s;
 }
 
 .list_style {
