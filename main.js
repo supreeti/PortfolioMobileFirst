@@ -8,6 +8,8 @@ const message = document.querySelector('.erMsg');
 const fName = document.querySelector('#name');
 const email = document.querySelector('#email');
 const textArea = document.querySelector('#text_message');
+const fname = document.getElementById('fname');
+const storemsg = document.getElementById('msg');
 
 function open() {
   openMenu.style.display = 'block';
@@ -26,6 +28,19 @@ function close() {
 menuselect.addEventListener('click', open);
 closeMenu.addEventListener('click', close);
 openMenu.addEventListener('click', close);
+
+function getFormData() {
+  const formData = {
+    fname: fname.value,
+    storemsg: storemsg.value,
+    email: email.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+fname.addEventListener('change', getFormData);
+email.addEventListener('change', getFormData);
+message.addEventListener('change', getFormData);
 
 const cardsData = [
   {
