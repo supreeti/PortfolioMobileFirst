@@ -8,6 +8,8 @@ const message = document.querySelector('.erMsg');
 const fName = document.querySelector('#name');
 const email = document.querySelector('#email');
 const textArea = document.querySelector('#text_message');
+const fname = document.getElementById('name');
+const storemsg = document.getElementById('text_message');
 
 function open() {
   openMenu.style.display = 'block';
@@ -26,6 +28,47 @@ function close() {
 menuselect.addEventListener('click', open);
 closeMenu.addEventListener('click', close);
 openMenu.addEventListener('click', close);
+
+function getFormData() {
+  const formData = {
+    fname: fname.value,
+    storemsg: storemsg.value,
+    email: email.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+function persistData() {
+  if (!localStorage.getItem('formData')) {
+    getFormData();
+  } else {
+    const fetchData = JSON.parse(localStorage.getItem('formData'));
+    fname.setAttribute('value', fetchData.fname);
+    email.setAttribute('value', fetchData.email);
+    message.textContent = fetchData.message;
+  }
+}
+
+window.onload = () => {
+  persistData();
+};
+
+fname.addEventListener('change', getFormData);
+email.addEventListener('change', getFormData);
+message.addEventListener('change', getFormData);
+
+window.addEventListener('load', () => {
+  const formInfo = JSON.parse(localStorage.getItem('formValues'));
+  if (formInfo) {
+    fName.value = formInfo.nameKey;
+    email.value = formInfo.emailKey;
+    textArea.value = formInfo.textAreaKey;
+  } else {
+    fName.value = '';
+    email.value = '';
+    textArea.value = '';
+  }
+});
 
 const cardsData = [
   {
