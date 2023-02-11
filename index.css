@@ -614,6 +614,14 @@ label {
   border: 1px solid #cfd8dc;
 }
 
+.erMsg {
+  color: red;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
+  transition: 2s;
+}
+
 .textarea1::placeholder {
   color: #172b4d;
   font-size: 17px;

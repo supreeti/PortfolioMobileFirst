@@ -121,7 +121,6 @@ const validate = () => {
 
 button.addEventListener('click', validate());
 
-
 let displayCard = '';
 for (let i = 0; i < cardsData.length; i += 1) {
   displayCard += `
