@@ -9,7 +9,7 @@ const fName = document.querySelector('#name');
 const email = document.querySelector('#email');
 const textArea = document.querySelector('#text_message');
 const fname = document.getElementById('name');
-const storemsg = document.getElementById('msg');
+const storemsg = document.getElementById('text_message');
 
 function open() {
   openMenu.style.display = 'block';
