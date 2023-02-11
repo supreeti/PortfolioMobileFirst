@@ -49,6 +49,10 @@ function persistData() {
   }
 }
 
+window.onload = () => {
+  persistData();
+};
+
 fname.addEventListener('change', getFormData);
 email.addEventListener('change', getFormData);
 message.addEventListener('change', getFormData);
