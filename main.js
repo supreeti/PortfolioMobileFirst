@@ -8,7 +8,7 @@ const message = document.querySelector('.erMsg');
 const fName = document.querySelector('#name');
 const email = document.querySelector('#email');
 const textArea = document.querySelector('#text_message');
-const fname = document.getElementById('fname');
+const fname = document.getElementById('name');
 const storemsg = document.getElementById('msg');
 
 function open() {
@@ -36,6 +36,17 @@ function getFormData() {
     email: email.value,
   };
   localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+function persistData() {
+  if (!localStorage.getItem('formData')) {
+    getFormData();
+  } else {
+    const fetchData = JSON.parse(localStorage.getItem('formData'));
+    fname.setAttribute('value', fetchData.fname);
+    email.setAttribute('value', fetchData.email);
+    message.textContent = fetchData.message;
+  }
 }
 
 fname.addEventListener('change', getFormData);
