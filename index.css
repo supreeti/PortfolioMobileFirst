@@ -627,14 +627,6 @@ label {
   color: #172b4d50;
 }
 
-.errorMsg {
-  color: #172b4d;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 28px;
-  transition: 3s;
-}
-
 .list_style {
   list-style: none;
 }
