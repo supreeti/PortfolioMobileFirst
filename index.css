@@ -916,7 +916,7 @@ label {
   .works_article .figure2 img:hover {
     transform: scale(1.1);
   }
-
+  
   .show1 {
     display: none;
   }
