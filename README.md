@@ -38,7 +38,10 @@ My second microverse project with my portfolio mobile view.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://supreeti.github.io/PortfolioMobileFirst/)
-
+[Live Readme Link](https://github.com/supreeti/supreeti/blob/main/README.md)
+[Live ToDoList Project Link](https://supreeti.github.io/To-Do-List/dist/)
+[Live Capstone project Link](https://supreeti.github.io/MYCAPSTONE/)
+[Live AwesomebookStore Link](https://supreeti.github.io/Awesomebookstore-ES6/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -77,7 +80,7 @@ Example command:
 
 - GitHub: [@supreeti](https://github.com/supreeti)
 - Twitter: [@Ksupreeti](https://twitter.com/Ksupreeti)
-- LinkedIn: [Supreeti](https://linkedin.com/in/Supreeti)
+- LinkedIn: [Supreeti](https://www.linkedin.com/in/supreeti-kushwaha-23336232/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
