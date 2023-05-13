@@ -80,8 +80,8 @@ const cardsData = [
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
     technologiesPop: ['html', ' css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
-    Source: 'https://github.com/supreeti/PortfolioMobileFirst',
-    liveLink: 'https://supreeti.github.io/PortfolioMobileFirst/',
+    Source: 'https://github.com/supreeti/Awesomebookstore-ES6',
+    liveLink: 'https://supreeti.github.io/Awesomebookstore-ES6/',
   },
 
   {
@@ -89,12 +89,12 @@ const cardsData = [
     name: ['Multi-Post Stories', 'Multi-Post Stories'],
     description: [
       'A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.', 'A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.'],
-    image: ['images/Snapshoot Portfolio (1).png', 'images/Snapshoot PortfolioDesk2.png'],
+    image: ['images/Todolist.png', 'images/Snapshoot PortfolioDesk2.png'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
     technologiesPop: ['html', ' css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
-    Source: 'https://github.com/supreeti/PortfolioMobileFirst',
-    liveLink: 'https://supreeti.github.io/PortfolioMobileFirst/',
+    Source: 'https://github.com/supreeti/ToDoList',
+    liveLink: 'https://supreeti.github.io/ToDoList/',
   },
 
   {
@@ -102,12 +102,12 @@ const cardsData = [
     name: ['Tonic', 'Facebook 360'],
     description:
       ['A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.', "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR... Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..."],
-    image: ['images/Snapshoot Portfolio (2).png', 'images/Snapshoot Portfoliodesk3.png'],
+    image: ['images/capstone.png', 'images/Snapshoot Portfoliodesk3.png'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
     technologiesPop: ['html', ' css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
-    Source: 'https://github.com/supreeti/PortfolioMobileFirst',
-    liveLink: 'https://supreeti.github.io/PortfolioMobileFirst/',
+    Source: 'https://github.com/supreeti/MYCAPSTONE',
+    liveLink: 'https://github.com/supreeti/MYCAPSTONE/',
   },
 
   {
@@ -115,7 +115,7 @@ const cardsData = [
     name: ['Multi-Post Stories', 'Uber Navigation'],
     description:
       ['A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.', 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car. A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.'],
-    image: ['images/Snapshoot Portfolio (3).png', 'images/Snapshoot PortfolioDesk4.png'],
+    image: ['images/awesome.png', 'images/Snapshoot PortfolioDesk4.png'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
     technologiesPop: ['html', ' css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
