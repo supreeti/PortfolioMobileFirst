@@ -73,10 +73,10 @@ window.addEventListener('load', () => {
 const cardsData = [
   {
     id: 0,
-    name: ['Tonic', 'Tonic'],
+    name: ['AwesomeBookStore', 'Tonic'],
     description: [
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and...', 'A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.'],
-    image: ['images/Snapshoot Portfolio.png', 'images/Snapshoot PortfolioDesk1.png'],
+      'An online bookstore. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and...', 'A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.'],
+    image: ['images/awesome.png', 'images/Snapshoot PortfolioDesk1.png'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
     technologiesPop: ['html', ' css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
@@ -86,20 +86,20 @@ const cardsData = [
 
   {
     id: 1,
-    name: ['Multi-Post Stories', 'Multi-Post Stories'],
+    name: ['ToDOList', 'Multi-Post Stories'],
     description: [
       'A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.', 'A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.'],
     image: ['images/Todolist.png', 'images/Snapshoot PortfolioDesk2.png'],
     technologies: ['html', ' css ', 'javaScript'],
     technologiesDesk: ['html', 'Ruby on rails', 'css', 'javaScript'],
     technologiesPop: ['html', ' css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
-    Source: 'https://github.com/supreeti/ToDoList',
-    liveLink: 'https://supreeti.github.io/ToDoList/',
+    Source: 'https://github.com/supreeti/PortfolioMobileFirst',
+    liveLink: 'https://supreeti.github.io/PortfolioMobileFirst/',
   },
 
   {
     id: 2,
-    name: ['Tonic', 'Facebook 360'],
+    name: ['MyCapstone', 'Facebook 360'],
     description:
       ['A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.', "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR... Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..."],
     image: ['images/capstone.png', 'images/Snapshoot Portfoliodesk3.png'],
